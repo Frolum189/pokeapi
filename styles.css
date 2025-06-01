@@ -128,3 +128,40 @@ h3{
     font-size: 25px;
     font-weight: bold;
 }
+
+#finder {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease;
+    width: 200px;
+}
+
+#finder:focus {
+    border-color: #fd2d2d;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 14px;
+    background-color: #fd2d2d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+button:hover {
+    background-color: #d82727;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+#findbutton i {
+    pointer-events: none;
+}

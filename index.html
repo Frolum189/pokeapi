@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <title>POKEMON SPA by Daniil</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="./pages/pokemons.js"></script>
   <link rel="icon" href="data:," type="image/x-icon">
+  <script src="https://kit.fontawesome.com/38973ffe6b.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
   <header>
@@ -12,6 +18,14 @@
       <a href="#/home">Main Page</a>
       <a href="#/pokemons">Pokemons</a>
       <a href="#/about">About</a>
+      <div>
+        <input type="text" placeholder="Find Pokemon" id="finder">
+        <button id="findbutton"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+      <div>
+        <button id="filterbypower">View the strongest pokemon</button>
+        <button id="filterbyspeed">View the fastest pokemon</button>
+      </div>
     </nav>
     <hr />
   </header>
